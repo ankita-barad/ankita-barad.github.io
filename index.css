@@ -143,6 +143,9 @@ section {
   text-align: center;
   margin-left: 130px;
 }
+.heading_stats {
+  text-align: center;
+}
 
 .about-text p {
   font-size: var(--p-font);
@@ -345,7 +348,7 @@ span {
 }
 
 #git-stat > div > img {
-  width: 55%;
+  width: 52%;
   background-color: black;
 }
 
