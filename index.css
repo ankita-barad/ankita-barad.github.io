@@ -141,7 +141,6 @@ section {
 }
 .heading h2 {
   text-align: center;
-  margin-left: 130px;
 }
 .heading_stats {
   text-align: center;
@@ -179,6 +178,9 @@ section {
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 1rem;
+}
+#about_heading {
+  margin-left: 130px;
 }
 
 .bars-box h3,
@@ -304,6 +306,9 @@ span {
   width: 80%;
   /* aspect-ratio: 4/4; */
 }
+.project-tech-stack {
+  font-size: 8px;
+}
 
 .tech-card {
   padding: 4px;
@@ -328,13 +333,13 @@ span {
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
-  background: #2768d9;
+  background: #9e7bb5;
   letter-spacing: 1px;
-  color: var(--bg-color);
+  color: white;
 }
 
 .button-project-link:hover {
-  background: var(--hover);
+  background: #ecdefd;
 }
 
 /* .project-card:hover  {
@@ -388,7 +393,7 @@ form textarea {
 
 .contact-button {
   width: 160px;
-  background: #2768d9;
+  background: #9e7bb5;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
@@ -427,9 +432,9 @@ form textarea {
 
 .footer-bottom {
   padding: 20px;
-  background: var(--main-color);
+  background-color: #9e7bb5;
   text-align: center;
-  color: #fff;
+  color: black;
 }
 
 .footer-bottom a {
