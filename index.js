@@ -1,13 +1,14 @@
-// document.getElementById("resume-button-1").addEventListener("click", () => {
-//   window.open(
-//     "https://drive.google.com/file/d/1lVQeTKDmLPowzpq9ToLy0H2qhgEbSatP/view?usp=sharing",
-//     "_blank"
-//   );
-// });
+let header = document.querySelector("header");
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
 
-// document.getElementById("resume-button-2").addEventListener("click", () => {
-//   window.open(
-//     "https://drive.google.com/file/d/1lVQeTKDmLPowzpq9ToLy0H2qhgEbSatP/view?usp=sharing",
-//     "_blank"
-//   );
-// });
+window.addEventListener("scroll", () => {
+  header.classList.toggle("shadow", window.scrollY > 0);
+});
+
+menu.onclick = () => {
+  navbar.classList.toggle("active");
+};
+window.onscroll = () => {
+  navbar.classList.remove("active");
+};
