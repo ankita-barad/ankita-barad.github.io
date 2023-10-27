@@ -9,6 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
@@ -47,9 +48,9 @@
 
     <section id="home">
       <div class="home-text">
-        <span>Hello, I'm</span>
+        <span>Hello, my name is </span>
         <h1 id="user-detail-name">Ankita Barad</h1>
-        <h2>Full Stack Web Developer</h2>
+        <span class="typed-text"></span>
         <br />
 
         <a
@@ -192,7 +193,7 @@
         <div class="skills-card">
           <img
             class="skills-card-img"
-            src="https://api.iconify.design/logos:express.svg"
+            src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
             alt="express"
           />
           <h4 class="skills-card-name">Express</h4>
@@ -212,6 +213,62 @@
             alt="vscode"
           />
           <h4 class="skills-card-name">VS Code</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
+            alt="socket.io"
+          />
+          <h4 class="skills-card-name">Socket.io</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+            alt="React"
+          />
+          <h4 class="skills-card-name">React</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://seeklogo.com/images/O/open-ai-logo-560B8FFD24-seeklogo.com.png"
+            alt="OpenAI"
+          />
+          <h4 class="skills-card-name">Open Ai</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://seeklogo.com/images/J/json-web-tokens-jwt-io-logo-C003DEC47A-seeklogo.com.png"
+            alt="jwt"
+          />
+          <h4 class="skills-card-name">JWT</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo.png"
+            alt="sql"
+          />
+          <h4 class="skills-card-name">SQL</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt="sql"
+          />
+          <h4 class="skills-card-name">Bootstrap</h4>
+        </div>
+        <div class="skills-card">
+          <img
+            class="skills-card-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+            alt="sql"
+          />
+          <h4 class="skills-card-name">AWS</h4>
         </div>
       </div>
     </section>
@@ -612,4 +669,16 @@
     </div>
     <script src="./index.js"></script>
   </body>
+  <script>
+    var options = {
+      strings: ["I am a Full Stack Web Developer"],
+      typeSpeed: 100, // Typing speed (in milliseconds per character)
+      backSpeed: 50, // Backspacing speed (in milliseconds per character)
+      startDelay: 500, // Delay before typing starts (in milliseconds)
+      backDelay: 1000, // Delay before backspacing starts (in milliseconds)
+      loop: true, // Loop the animation
+    };
+
+    var typed = new Typed(".typed-text", options);
+  </script>
 </html>

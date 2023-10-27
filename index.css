@@ -145,6 +145,9 @@ section {
 .heading_stats {
   text-align: center;
 }
+.heading {
+  text-align: center;
+}
 
 .about-text p {
   font-size: var(--p-font);
@@ -419,7 +422,7 @@ form textarea {
 }
 
 .footer-social a i {
-  color: rgb(10, 26, 208);
+  color: #9e7bb5;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
@@ -452,19 +455,7 @@ form textarea {
   }
 }
 
-/* @media (max-width: 881px) {
-  :root {
-    --big-font: 2.7rem;
-    --medium-font: 1.4rem;
-  }
-} */
-
 @media (max-width: 768px) {
-  /* :root {
-    --big-font: 2.4rem;
-    --medium-font: 1.2rem;
-  } */
-
   header {
     padding: 11px 4%;
   }
@@ -546,6 +537,9 @@ form textarea {
     width: 90%;
     background-color: black;
   }
+  #about_heading {
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -587,6 +581,9 @@ form textarea {
   .contact-button {
     margin-left: 25%;
   }
+  #about_heading {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
@@ -602,5 +599,8 @@ form textarea {
   #git-stat > div > img {
     width: 90%;
     background-color: black;
+  }
+  #about_heading {
+    margin-left: 20px;
   }
 }
